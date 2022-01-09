@@ -1,0 +1,161 @@
+.headline {
+  font-family: "Yeseva One", cursive;
+}
+h1 {
+  font-size: 50px;
+}
+
+.orange-color {
+  color: rgb(250, 191, 81);
+}
+.normal-text {
+  font-family: "Lorem ipsum";
+}
+#headline-side-border {
+  padding-left: 5%;
+  border-left: 5px solid;
+  border-color: orangered;
+  border-image-slice: 1;
+}
+
+.flexible-container {
+  display: flex;
+  margin-bottom: 100px;
+}
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.half-width img {
+  width: 50%;
+  padding-left: 5%;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(63, 3, 63), rgb(127, 127, 207));
+  padding: 10px 40px;
+  color: white;
+  font-weight: 400;
+  border-radius: 5px;
+}
+.center-text {
+  text-align: center;
+}
+.headline2 {
+  font-family: "Lato", sans-serif;
+}
+
+.flexible-container2 {
+  display: flex;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.m-v-g-box {
+  /* Dividing box in 3*/
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  width: 100%;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+/* Another way of dividing
+#flexible-container2 {
+ display: flex; /* /*establish flex container */ /*
+ align-content: center; /* /*default value; can be omitted */ /*
+ flex-wrap: nowrap; /* default value; can be omitted /*
+ justify-content: space-between; /* switched from default (flex-start, see below) */ /*
+}
+#flexible-container2 div {
+  align-items: center;
+  margin: 10px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+*/
+
+.mission-bg {
+  background-color: rgb(196, 223, 223);
+}
+.vission-bg {
+  background-color: rgb(240, 215, 227);
+}
+.goal-bg {
+  background-color: rgb(230, 210, 185);
+}
+
+.headline3 {
+  font-family: "Oswald", sans-serif;
+}
+
+.half-width2 {
+  width: 50%;
+  padding-left: 1%;
+  padding-top: 5%;
+}
+.half-width2 img {
+  width: 60%;
+  padding-left: 15%;
+}
+
+.third-section {
+  background-image: url(shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 18%;
+}
+
+.half-width3 {
+  width: 50%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.half-width3 img {
+  width: 60%;
+  padding-left: 15%;
+}
+
+.fourth-section {
+  background-image: url(shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: right, bottom;
+  background-size: 18%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.footer-text1 {
+  font-family: "Oswald", sans-serif;
+  font-family: "Playball", cursive;
+}
+
+.orangered-color {
+  color: orangered;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-bg {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  height: 100px;
+  padding: 20px;
+}
+.white-color {
+  color: white;
+  padding-bottom: 20px;
+}
